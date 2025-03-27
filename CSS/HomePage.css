@@ -1,0 +1,248 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+/* advertiseBoard Advertisement*/
+/* Parent container */
+#advertiseBoard {
+  background-image: url("../Content/Advertisement/Discount.png");
+  mask-image: linear-gradient(to bottom, transparent , black 30%, black 70%, transparent);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+/* Child container */
+#displayContent {
+  width: 20%; /* 30% of parent's width */
+  height: 30%; /* 100% of parent's height */
+  background-color: #f9a82500;
+  border-radius: 50px;
+  position: relative; /* Position it relative to the parent */
+  left: 2%; /* Stick to the left side */
+  top: 8%; /* Stick to the top */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 20px; /* Add some padding */
+  box-sizing: border-box; /* Include padding in width/height */
+}
+
+/* Title styling */
+#displayContent h2 {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  margin-bottom: 20px; /* Space between title and button */
+}
+
+/* Button styling */
+#displayContent button {
+  padding: 10px 20px;
+  background-color: #717171;
+  color: #c0ff69;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.9s ease;
+}
+
+#displayContent button:hover {
+  background-color: black; /* Light gray on hover */
+  color: #c0ff69;
+  font-size: 20px;
+
+}
+
+
+
+/* Listings Section Styles */
+.listings {
+  padding: 50px 0;
+}
+
+.listings h2 {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px; /* Adjust spacing between cards */
+  width: 100%;
+}
+
+.property-card {
+  width: 80%; /* Set to 80% of the parent width */
+  height: 600px; /* Fixed height for all property cards */
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: auto; /* Center property card horizontally */
+  mask-image: radial-gradient(circle , black,black, transparent 65%);
+
+  /* Flexbox to center content */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Horizontally center content */
+  text-align: center; /* Center text */
+}
+
+.property-card img {
+    object-fit: contain;
+    height: 360px;
+      display: block;  /* Removes extra space under images */
+
+}
+
+.property-card h3{
+  margin: 55px 0 30px;
+
+}
+
+.property-card p{
+  margin: 20px 0;
+}
+
+
+
+.property-card .btn {
+  
+  display: inline-block;
+  text-decoration: none;
+  transition: all 1.2s ease; /* Smooth transition for all properties */
+  color: #000;
+  border-radius: 50px;
+}
+
+.property-card .btn:hover {
+  transform: scale(1.1) ;
+
+}
+
+
+/* Testimonials Section */
+.testimonials {
+  padding: 30px;
+  background: #f9f9f900; /* Light background for contrast */
+  
+}
+
+
+.testimonial-grid a {
+  text-decoration: none;
+
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #333;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  justify-items: center; /* Centers items within each grid cell */
+
+}
+
+.testimonial-card {
+  padding: 20px;
+  width: 40%;
+  text-align: center;
+}
+
+.testimonial-card .stars {
+  color: #000000; /* Gold color for stars */
+  font-size: 44px;
+  margin-bottom: 15px;
+}
+
+.testimonial-card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.testimonial-card h4 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+
+
+/* Hero Section Styles */
+.hero {
+  background: url('hero-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin: 100px 0px 200px;
+}
+
+.hero h2 {
+  color: #000;
+  margin: 0 0 20px;
+}
+
+.hero form {
+  display: flex;
+  justify-content: center;
+}
+
+.hero input[type="text"] {
+  font-weight: bold;
+
+/* Hero Section Styles */
+  margin-top: 30px;
+  padding: 20px;
+  width: 500px;
+  border: 2px solid #000; /* Add a black border */
+  border-radius: 5px 0 0 5px;
+  outline: none; /* Remove the default browser outline */
+}
+
+
+.hero button {
+  padding: 20px 35px;
+  border: none;
+  font-weight: bold;
+  background: #e6ffbf;
+  color: #3f3f3f;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  border: 2px solid #000; /* Add a black border */
+  margin-top: 30px
+}
+
+.hero button:hover {
+  background: #c0ff69;
+  color: black;
+  font-weight: bold;
+  
+
+}
+
+
+
