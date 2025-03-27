@@ -89,12 +89,12 @@ body {
 
 .property-card {
   width: 80%; /* Set to 80% of the parent width */
-  height: 600px; /* Fixed height for all property cards */
+  height: 650px; /* Fixed height for all property cards */
   border-radius: 5px;
   overflow: hidden;
   background-color: #fff;
   margin: auto; /* Center property card horizontally */
-  mask-image: radial-gradient(circle , black,black, transparent 65%);
+  mask-image: radial-gradient(circle , black,black, transparent 50%);
 
   /* Flexbox to center content */
   display: flex;
@@ -111,12 +111,12 @@ body {
 }
 
 .property-card h3{
-  margin: 55px 0 30px;
+  margin: 15px 0 0px;
 
 }
 
 .property-card p{
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 
