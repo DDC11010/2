@@ -2,16 +2,17 @@ body {
   font-family: Arial, sans-serif;
   background-color: white; /* Gray background */
 }
-    
-    .container{
-      gap: 50px;
-      padding: 10px;
 
-    }
+
+.container{
+  gap: 50px;
+  padding: 10px;
+
+}
     
-    
+
   
-  .about-content {
+.about-content {
     display: flex;
     align-items: center;
     gap: 20px; /* Space between image and text */
@@ -21,7 +22,7 @@ body {
  
 
 .about img{
-  border-radius: 50px; /* Rounds the corners slightly */
+  border-radius: 40px; /* Rounds the corners slightly */
 
 }
 .about-text {
@@ -43,7 +44,6 @@ body {
   border-radius: 10px; /* Rounds the corners slightly */
   padding: 20px; /* Adds spacing inside the border */
   margin: 20px; /* Ensures images do not touch the edges */
-  background-color: ;
 }
 .about-content, .about-content-below {
   display: flex;
