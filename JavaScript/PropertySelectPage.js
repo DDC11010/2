@@ -10,7 +10,7 @@ const propertyData = {
       "../Content/PropertyImages/property-1/image008.png"
     ],
     description: {
-      propertyPrice: "💰 Property Price: £600,000",
+      propertyPrice: "💰 £600,000",
       location: "📍 Location: Croydon Purley",
       details: "🛏️ Bedrooms: 3 | 🛁 Bathrooms: 2 | 🏠 Size: 1,700 sq. ft.",
       summary: "This stunning property offers a modern living experience with a spacious open floor plan, a fully equipped kitchen, and a beautiful backyard perfect for entertaining. Located in a quiet neighborhood, it's...",
@@ -33,7 +33,7 @@ const propertyData = {
       "../Content/PropertyImages/property-2/image017.png"
     ],
     description: {
-      propertyPrice: "💰 Property Price: £700,000",
+      propertyPrice: "💰 £700,000",
       location: "📍 Location: Croydon",
       details: "🛏️ Bedrooms: 3 | 🛁 Bathrooms: 2 | 🏠 Size: 1,500 sq. ft.",
       summary: "This is a beautiful property that offers a modern living experience with a big open floor plan, a fully equipped kitchen, and a beautiful backyard perfect for entertaining. Located in a quiet neighborhood, it's just minutes away from...",
@@ -56,7 +56,7 @@ const propertyData = {
       "../Content/PropertyImages/property-3/image024.jpg"
     ],
     description: {
-      propertyPrice: "💰 Property Price: £700,000",
+      propertyPrice: "💰 £700,000",
       location: "📍 Location: Croydon",
       details: "🛏️ Bedrooms: 3 | 🛁 Bathrooms: 2 | 🏠 Size: 1,500 sq. ft.",
       summary: "This is a beautiful property that offers a modern living experience with a big open floor plan, a fully equipped kitchen, and a beautiful backyard perfect for entertaining...",
@@ -78,7 +78,7 @@ const propertyData = {
       "../Content/PropertyImages/property-4/image033.png"
     ],
     description: {
-      propertyPrice: "💰 Property Price: £625,000",
+      propertyPrice: "💰 £625,000",
       location: "📍 Location: Shirley Church Road, Croydon CR0 Croydon",
       details: "Land Size: 1,078 sq. ft.",
       summary: "A charming parcel of approximately 2.55 acres of amenity woodland located in the vibrant area of Croydon, CR0. This serene woodland plot offers a unique opportunity for recreational or conservation use, providing...",
@@ -100,7 +100,7 @@ const propertyData = {
       "../Content/PropertyImages/property-5/image041.png"
     ],
     description: {
-      propertyPrice: "💰 Property Price: £120,000",
+      propertyPrice: "💰 £120,000",
       location: "📍 Location: Land At Marlow Close, London, Greater London, SE20",
       details: "Land Size: 2,400 sq. ft.",
       summary: "The property at Land At Marlow Close, London, SE20, is a freehold infill corner plot offering approximately 2,114 sq ft of space with residential development potential. It's conveniently located less than 500 meters from Birkbeck Station, providing easy...",
@@ -121,7 +121,7 @@ const propertyData = {
       "../Content/PropertyImages/property-6/image049.png"
     ],
     description: {
-      propertyPrice: "💰 Property Price: £800,000",
+      propertyPrice: "💰 £800,000",
       location: "📍 Location: Old Farleigh Road (R), South Croydon CR2",
       details: "Land Size: 4,114 sq. ft.",
       summary: "Situated in the tranquil neighborhood of Selsdon in South Croydon, 119 Old Farleigh Road presents a remarkable development opportunity. This freehold site, spanning approximately 0.2 acres, has received planning consent for the construction of...",
@@ -142,7 +142,7 @@ const propertyData = {
       "../Content/PropertyImages/property-7/image057.png"
     ],
     description: {
-      propertyPrice: "💰 Property Price: £600,000",
+      propertyPrice: "💰 £600,000",
       location: "📍 Location: Croydon Purley",
       details: "🛏️ Bedrooms: 3 | 🛁 Bathrooms: 2 | 🏠 Size: 1,700 sq. ft.",
       summary: "Internally the property briefly comprises of; reception room with a large bay window, dining room with sliding doors leading to the rear garden, WC and integrated shaker style kitchen. Upstairs, there are four bedrooms...",
@@ -164,7 +164,7 @@ const propertyData = {
       "../Content/PropertyImages/property-8/image065.png"
     ],
     description: {
-      propertyPrice: "💰 Property Price: £600,000",
+      propertyPrice: "💰 £600,000",
       location: "📍 Location: Croydon Purley",
       details: "🛏️ Bedrooms: 2 | 🛁 Bathrooms: 2 | 🏠 Size: 1,700 sq. ft.",
       summary: "This stunning property offers a modern living experience with a spacious open floor plan, a fully equipped kitchen, and a beautiful backyard perfect for entertaining. Located in a quiet neighborhood, it's just minutes away from schools...",
@@ -185,7 +185,7 @@ const propertyData = {
       "../Content/PropertyImages/property-9/image071.png"
     ],
     description: {
-      propertyPrice: "💰 Property Price: £550,000",
+      propertyPrice: "💰 £550,000",
       location: "📍 Location: Croydon Purley",
       details: "🛏️ Bedrooms: 2 | 🛁 Bathrooms: 1 | 🏠 Size: 1,900 sq. ft.",
       summary: "This beautiful property offers a modern living experience with a spacious open floor plan, a fully equipped kitchen, and a beautiful backyard perfect for entertaining. Located in a quiet neighborhood, near a park and near a store",
